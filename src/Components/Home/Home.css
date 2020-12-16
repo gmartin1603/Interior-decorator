@@ -1,0 +1,24 @@
+.home__row {
+    height: 50%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 150px
+}
+.home__image {
+    width: 410px;
+    overflow: hidden;
+}
+
+.home__image > img {
+    object-fit: contain;
+    width: 100%;
+    overflow: hidden;
+}
+
+.home__row2 {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: silver;
+}

@@ -1,0 +1,29 @@
+.portfolio {
+    display: flex;
+    justify-content: space-around;
+    background-color: #d4d2d0;
+    flex-wrap: wrap;
+}
+
+.portfolio__title {
+    width: 100%;
+    text-align: center;
+    font-size: 32px;
+    padding: 20px 0;
+}
+
+.portfolio__left, .portfolio__right {
+    text-align: center;
+    font-size: 30px;
+    width: 50%; 
+    cursor: default;
+}
+
+.portfolio__left > a > img, .portfolio__right > a > img {
+    width: 90%;
+    object-fit: contain;
+}
+
+.portfolio__left > a > img:hover, .portfolio__right > a > img:hover {
+    transform: scale(1.1);
+}

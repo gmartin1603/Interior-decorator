@@ -1,0 +1,17 @@
+.exterior {
+    margin-top: 200px;
+    display: flex;
+    background: linear-gradient(to left, whitesmoke, black);
+}
+
+.exterior__left, .exterior__right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 200%;
+}
+
+.exterior__left > img, .exterior__right > img {
+    width: 50%;
+    margin-top: 10px;
+}
