@@ -20,7 +20,7 @@ function Toolbar(props) {
                     <div className="toolbar__navigation__items">
                         <ul>
                             <li><a href="/">About us</a></li>
-                            <li><a href="/">Portfolio</a></li>
+                            <li><Link to="/Portfolio">Portfolio</Link></li>
                             <li><Link to="/Services">Services</Link></li>
                             <li><a href="/">Consultation</a></li>
                             <li><a href="/">Contact</a></li>

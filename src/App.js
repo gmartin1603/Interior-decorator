@@ -26,6 +26,10 @@ function App() {
     <Router>
       <div className="app">
         <Switch>
+          <Route path="/Portfolio">
+            <Toolbar/>
+            <Portfolio/>
+          </Route> 
           <Route path="/Services">
             <Toolbar/>
             <Services/>
