@@ -21,7 +21,7 @@ function Toolbar(props) {
                         <ul>
                             <li><a href="/">About us</a></li>
                             <li><a href="/">Portfolio</a></li>
-                            <li><a href="/">Services</a></li>
+                            <li><Link to="/Services">Services</Link></li>
                             <li><a href="/">Consultation</a></li>
                             <li><a href="/">Contact</a></li>
                             {/* <li><a href="/">Reviews</a></li> */}

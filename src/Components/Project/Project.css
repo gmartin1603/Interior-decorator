@@ -1,4 +1,4 @@
-.exterior {
+.project {
     margin-top: 200px;
     display: flex;
     flex-wrap: wrap;
@@ -12,7 +12,7 @@
     flex-grow: 1;
 }
 
-.exterior__project {
+.project {
     display: flex;
     align-items: center;
     font-size: 200%;
@@ -20,8 +20,8 @@
     min-width: 100px;
 }
 
-.exterior__project > img {
-    width: 50%;
+.project> a > img {
+    width: 100%;
     margin-top: 10px;
     cursor: pointer;
 }

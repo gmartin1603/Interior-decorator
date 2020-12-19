@@ -1,0 +1,16 @@
+.services {
+    margin-top: 200px;
+}
+
+.services__banner {
+    text-align: center;
+}
+
+.services__main {
+    display: flex;
+}
+
+.main__service, .main__description {
+    width: 50%;
+    text-align: center;
+}

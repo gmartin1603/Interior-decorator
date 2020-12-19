@@ -1,0 +1,18 @@
+.gallery {
+    margin-top: 200px;
+}
+
+.gallery__title {
+    text-align: center;
+}
+
+.gallery__images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.gallery__images > img {
+    margin: 10px;
+    max-width: 450px;
+}

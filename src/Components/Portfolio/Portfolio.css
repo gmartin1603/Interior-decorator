@@ -24,6 +24,3 @@
     object-fit: contain;
 }
 
-.portfolio__left > a > img:hover, .portfolio__right > a > img:hover {
-    transform: scale(1.1);
-}
