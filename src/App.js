@@ -1,5 +1,6 @@
 import { Route, BrowserRouter as Router, Switch } from 'react-router-dom';
 import './App.css';
+import About from './Components/About/About';
 import Exterior from './Components/Exterior/Exterior';
 import Gallery from './Components/Gallery/Gallery';
 import Home from './Components/Home/Home';
@@ -26,6 +27,10 @@ function App() {
     <Router>
       <div className="app">
         <Switch>
+          <Route path="/About">
+            <Toolbar/>
+            <About/>
+          </Route> 
           <Route path="/Portfolio">
             <Toolbar/>
             <Portfolio/>

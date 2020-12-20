@@ -1,9 +1,19 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import ToggleButton from '../ToggleButton/ToggleButton';
 import './Toolbar.css'
 
 function Toolbar(props) {
+    const [show, setShow] = useState(false)
+
+    const showContact = () => {
+        setShow(!show)
+    }
+
+    let contactClass = "contact__info__hidden"
+    if(show) {
+        contactClass = "contact__info"
+    }
     return (
         <div className="toolbar">
             <header className="toolbar">
@@ -19,11 +29,18 @@ function Toolbar(props) {
                     <div className="spacer"></div>
                     <div className="toolbar__navigation__items">
                         <ul>
-                            <li><a href="/">About us</a></li>
+                            <li><Link to="/About">About</Link></li>
                             <li><Link to="/Portfolio">Portfolio</Link></li>
                             <li><Link to="/Services">Services</Link></li>
                             <li><a href="/">Consultation</a></li>
-                            <li><a href="/">Contact</a></li>
+                            <div className="contact__container" onClick={showContact}>
+                                <li><Link>Contact</Link></li>
+                                <div className={contactClass}>
+                                    <a href="">mail@email.com</a>
+                                    <a href="">Facebook</a>
+                                    <a href="">Instagram</a>
+                                </div>
+                            </div>
                             {/* <li><a href="/">Reviews</a></li> */}
                         </ul>
                     </div>

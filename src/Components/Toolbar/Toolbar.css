@@ -50,6 +50,28 @@
     color: purple;
 }
 
+.contact__info {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(44, 50, 56, 0.5);
+    padding-left: 15px; 
+    padding-right: 15px; 
+    padding-bottom: 15px; 
+    transform: translateX(0);
+    transition: transform 0.3s ease-in-out;
+}
+
+.contact__info > a {
+    margin-top: 10px;
+    color: white;
+}
+
+.contact__info__hidden {
+    position: fixed;
+    transform: translateX(500%)
+}
+
 @media (max-width: 758px) {
     .toolbar__navigation__items{
         display: none

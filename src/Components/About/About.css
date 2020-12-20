@@ -1,0 +1,36 @@
+.about {
+    margin-top: 200px;
+}
+
+.about__banner {
+    text-align: center;
+    width: 100%;
+}
+
+.about__main {
+    display: flex;
+    width: 100%;
+}
+
+.about__left {
+    width: 50%;
+}
+
+.about__left > img {
+    width: 100%;
+    padding: 20px;
+}
+
+.spacer {
+    flex: 1;
+}
+
+.about__right {
+    width: 40%;
+    text-align: center;
+    padding: 20px;
+}
+
+.about__blurb {
+    margin-top: 70px;
+}
